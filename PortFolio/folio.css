@@ -24,6 +24,7 @@ strong {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  overflow: hidden;
 }
 *::before,
 *::after {
