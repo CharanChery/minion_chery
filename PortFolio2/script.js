@@ -18,3 +18,20 @@ document.addEventListener("DOMContentLoaded", function () {
 // document.getElementById("Education_bgv").addEventListener("click", function () {
 //   alert("On developing mode, please be patience on navigation bar");
 // });
+
+  
+document.addEventListener("DOMContentLoaded", () => {
+  const gateContainer = document.querySelector(".gate-container");
+  const mainContent = document.querySelector(".main");
+
+  // Wait for the animation to finish
+  const gates = document.querySelectorAll(".gate");
+  console.log('Gates length:',gates.length);
+  gates[gates.length-1].addEventListener("animationend", () => {
+    // Hide the gate and show the main content
+    setTimeout(()=>{
+    gateContainer.style.display = "none";
+    mainContent.style.display = "block";
+  },100);
+});
+});
