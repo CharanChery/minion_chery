@@ -27,10 +27,14 @@ strong {
   text-decoration: none;
   list-style: none;
 }
-
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
 .main {
   /* border: solid; */
-  width: 100vw;
+  /* width: 100vw; */
   /* height: 100vh; */
   background: linear-gradient(
     to right,
@@ -39,7 +43,6 @@ strong {
     rgba(115, 239, 255, 0.207)
   );
   overflow: hidden;
-
 }
 
 .cloud {
@@ -139,7 +142,8 @@ strong {
   top: 1600px;
   right: 50px;
   animation: animate1 5s ease infinite;
-}.cloud13 {
+}
+.cloud13 {
   width: 80px;
   height: 80px;
   top: 1900px;
@@ -166,7 +170,8 @@ strong {
   top: 2200px;
   right: 50px;
   animation: animate1 5s ease infinite;
-}.cloud17 {
+}
+.cloud17 {
   width: 80px;
   height: 80px;
   top: 2500px;
@@ -198,7 +203,7 @@ strong {
 
 .navigation {
   /* border: 1px solid; */
-  width: 100%;
+  width: 100vw;
   height: 10vh;
   display: flex;
   border-bottom: 0.2px solid #96898943;
@@ -281,11 +286,12 @@ strong {
   flex-wrap: wrap;
   padding: 30px;
 }
-.ITcert h2{
+.ITcert h2 {
   color: #153259;
   font-size: var(--fs-h1);
   /* text-decoration: underline; */
   text-shadow: #153259;
+  text-align: center;
 }
 .textarea,
 #allimg {
@@ -317,17 +323,16 @@ strong {
   /* border: solid; */
 }
 
-.textarea h3{
+.textarea h3 {
   color: rgb(255, 132, 0);
   font-size: 1.4rem;
   text-align: center;
 }
-.textarea p{
+.textarea p {
   color: #153259;
   text-align: justify;
-  
 }
-.textarea button{
+.textarea button {
   border: transparent;
   border-radius: 10px;
   width: 100px;
@@ -337,7 +342,7 @@ strong {
   cursor: pointer;
 }
 
-.imgcontainer-1{
+.imgcontainer-1 {
   order: 0;
   /* border: solid green; */
   border-radius: 20px 0 0 20px;
@@ -372,7 +377,7 @@ strong {
 .microsoftMTA .textarea {
   border-radius: 20px 0px 0px 20px;
 }
-.imgcontainer-2{
+.imgcontainer-2 {
   order: 1;
   /* border: solid green; */
   border-radius: 0 20px 20px 0;
@@ -404,7 +409,7 @@ strong {
 .PyforDS .textarea {
   border-radius: 0px 20px 20px 0px;
 }
-.imgcontainer-3{
+.imgcontainer-3 {
   order: 0;
   /* border: solid green; */
   border-radius: 0 20px 20px 0;
@@ -434,7 +439,7 @@ strong {
 .SoftwareEngin .textarea {
   border-radius: 20px 0px 0px 20px;
 }
-.imgcontainer-4{
+.imgcontainer-4 {
   order: 1;
   /* border: solid green; */
   border-radius: 0 20px 20px 0;
@@ -464,7 +469,7 @@ strong {
 .SQLBasic .textarea {
   border-radius: 0px 20px 20px 0px;
 }
-.imgcontainer-5{
+.imgcontainer-5 {
   order: 0;
   /* border: solid green; */
   border-radius: 0 20px 20px 0;
@@ -493,7 +498,7 @@ strong {
 .PythBasic .textarea {
   border-radius: 20px 0px 0px 20px;
 }
-.imgcontainer-6{
+.imgcontainer-6 {
   /* display: flex; */
   order: 1;
   /* border: solid green; */
@@ -519,6 +524,21 @@ strong {
   background-color: white;
   transition: scale 2s ease-in;
 }
-#allimg:hover{
+#allimg:hover {
   /* transform: scale(1.1); */
+}
+
+::-webkit-scrollbar {
+  color: #a3e016;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 7px;
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background: #a3e016;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.207);
 }
