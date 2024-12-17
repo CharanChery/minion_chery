@@ -77,6 +77,11 @@ strong {
   border-bottom: 2px solid rgb(127, 179, 74);
   color: forestgreen;
 }
+.linksto ul li a[title = "Project"]{
+  color: rgb(255, 142, 4);
+  border-bottom: 2px solid rgb(255, 142, 4);
+}
+
 .menu-icon {
   color: black;
   font-size: 25px;
@@ -300,9 +305,12 @@ body{
   /* position: relative;
     left: 20px; */
   width: 100%;
+  font-size: 1.8rem;
+
   text-align: center;
   padding: 20px;
   color: rgb(255, 133, 26);
+  text-decoration:underline;
   /* border: solid green; */
 }
 
@@ -373,9 +381,11 @@ body{
   /* position: relative;
       left: 20px; */
   width: 100%;
+  font-size: 1.8rem;
   text-align: center;
   padding: 20px;
   color: rgb(255, 133, 26);
+  text-decoration: underline;
   /* border: solid green; */
 }
 .srap .main-content-srap {

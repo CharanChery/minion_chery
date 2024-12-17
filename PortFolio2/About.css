@@ -26,6 +26,19 @@ strong {
   /* overflow: hidden; */
 }
 
+@font-face {
+  font-family: Philosopher;
+  src: url(./Fonts/Philosopher/Philosopher-Regular.ttf);
+}
+@font-face {
+  font-family: Philosopher-Bold;
+  src: url(./Fonts/Philosopher/Philosopher-Bold.ttf);
+}
+@font-face {
+  font-family: Philosopher-Italic;
+  src: url(./Fonts/Philosopher/Philosopher-Italic.ttf);
+}
+
 .navigation {
   /* border: 1px solid; */
   width: 100%;
@@ -37,6 +50,7 @@ strong {
   z-index: 1;
   top: 0;
   text-transform: uppercase;
+  font-family: Philosopher;
 }
 .navigation img[alt="logo"] {
   /* border: 1px solid; */
@@ -77,6 +91,12 @@ strong {
   border-bottom: 2px solid rgb(127, 179, 74);
   color: forestgreen;
 }
+
+.linksto ul li a[title = "Aboutme"]{
+  color: rgb(255, 142, 4);
+  border-bottom: 2px solid rgb(255, 142, 4);
+}
+
 .menu-icon {
   color: black;
   font-size: 25px;
@@ -205,6 +225,7 @@ strong {
   left: 33px;
   padding: 10px;
   color: goldenrod;
+  font-family: Philosopher-Italic;
 }
 
 .About-intro h2::first-letter {
@@ -249,6 +270,8 @@ strong {
   position: relative;
   color: goldenrod;
   border-bottom: 0.1px solid;
+  font-family: Philosopher-Italic;
+
 }
 .myJourney .Education-det {
   /* border: solid red; */
@@ -325,6 +348,8 @@ strong {
   top: 20px;
   color: goldenrod;
   border-bottom: 0.1px solid;
+  font-family: Philosopher-Italic;
+
 }
 .tname {
   color: blueviolet;
