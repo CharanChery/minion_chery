@@ -27,6 +27,14 @@ strong {
   text-decoration: none;
   list-style: none;
 }
+@font-face {
+  font-family: Philosopher;
+  src: url(./Fonts/Philosopher/Philosopher-Regular.ttf);
+}
+@font-face {
+  font-family: Philosopher-Bold;
+  src: url(./Fonts/Philosopher/Philosopher-Bold.ttf);
+}
 body {
   width: 100vw;
   height: 100vh;
@@ -212,6 +220,8 @@ body {
   top: 0;
   z-index: 1;
   text-transform: uppercase;
+  font-family: Philosopher;
+
 }
 .navigation img[alt="logo"] {
   /* border: 1px solid; */
@@ -298,12 +308,16 @@ body {
   /* text-decoration: underline; */
   text-shadow: #153259;
   text-align: center;
+  font-family: Philosopher-Bold;
+
 }
 .textarea,
 #allimg {
   /* border: solid; */
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  font-family: Philosopher;
+    
 }
 .microsoftAI {
   /* border: solid blue; */
@@ -346,6 +360,8 @@ body {
   background-color: #a3e016;
   color: azure;
   cursor: pointer;
+  font-family: Philosopher;
+
 }
 
 .imgcontainer-1 {

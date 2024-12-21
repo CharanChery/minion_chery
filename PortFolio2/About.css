@@ -195,7 +195,14 @@ strong {
     transform: translateY(-20px);
   }
 }
-
+body{
+  background: linear-gradient(
+    to right,
+    rgba(255, 199, 115, 0.207),
+    rgba(136, 255, 165, 0.142),
+    rgba(115, 239, 255, 0.142)
+  );
+}
 .About-page {
   width: 80vw;
   /* border: solid; */
@@ -204,23 +211,26 @@ strong {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  
 }
 
 .About-intro {
   width: 75vw;
-  height: 150px;
+  height: 190px;
   border-radius: 20px;
   box-shadow: 2px 2px 30px 10px #a3e0162b;
   position: relative;
   top: 20px;
-  font-style: italic;
+  /* font-style: italic; */
   color: darkslategray;
+  background: white;
+  /* border: solid; */
 }
 
 .About-intro h2 {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   position: relative;
   left: 33px;
   padding: 10px;
@@ -228,9 +238,11 @@ strong {
   font-family: Philosopher-Italic;
 }
 
-.About-intro h2::first-letter {
-  font-size: 20px;
-  font-style: italic;
+.About-intro h2::first-letter{
+
+  /* border: solid black; */
+  font-size: 50px;
+  color: rgb(255, 142, 4);
 }
 
 .About-intro p {
@@ -243,7 +255,9 @@ strong {
   font-weight: normal;
   font-size: 16.7px;
   text-align: justify;
+  font-family: Philosopher;
 }
+
 
 .myJourney {
   width: 35vw;
@@ -255,12 +269,13 @@ strong {
   /* box-shadow: 2px 2px 30px 10px #16e0b12b; */
   box-shadow: 2px 2px 30px 10px rgba(255, 123, 0, 0.162);
   padding: 10px;
-  font-style: italic;
+  /* font-style: italic; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 150px;
+  background-color: white;
 }
 .myJourney h2 {
   text-align: center;
@@ -301,6 +316,7 @@ strong {
   justify-content: center;
   margin-bottom: 10px;
   text-decoration: underline;
+  font-family: Philosopher;
 }
 #btech strong,
 #inter strong,
@@ -308,6 +324,7 @@ strong {
   /* color: darkorange; */
   font-weight: 100;
   color: lightcoral;
+  font-family: Philosopher;
 }
 #btech p,
 #inter p,
@@ -317,6 +334,8 @@ strong {
   font-weight: 500;
   /* text-align:justify */
   padding: 3px;
+  font-family: Philosopher;
+
 }
 
 .my-Skills {
@@ -328,7 +347,7 @@ strong {
   border-radius: 20px;
   background-color: white;
   box-shadow: 2px 2px 30px 10px #16e0b12b;
-  font-style: italic;
+  /* font-style: italic; */
   /* font-size: 16px; */
   margin-bottom: 150px;
 }
@@ -348,7 +367,7 @@ strong {
   top: 20px;
   color: goldenrod;
   border-bottom: 0.1px solid;
-  font-family: Philosopher-Italic;
+  font-family: Philosopher;
 
 }
 .tname {
@@ -360,6 +379,8 @@ strong {
   position: relative;
   top: 20px;
   padding: 17px; /*Change the value here so I can add another skill in space*/
+  font-family: Philosopher;
+
 }
 .tname p {
   font-size: 17px;
@@ -378,6 +399,8 @@ strong {
   width: 90px;
   font-weight: normal;
   color: lightcoral;
+  font-family: Philosopher-Italic;
+
 }
 .score {
   width: 150px;
