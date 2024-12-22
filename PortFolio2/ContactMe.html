@@ -33,8 +33,6 @@
     <link rel="shortcut icon" href="./img/suitcase.png" type="image/x-icon" />
   </head>
   <body>
-    
-
     <div class="main">
       <!-- Clouds -->
       <div class="cloudanime">
@@ -52,7 +50,7 @@
           <div class="linksto">
             <ul>
               <li>
-                <a href="./index.html" title="home">Home</a>
+                <a href="./index.html">Home</a>
               </li>
               <li>
                 <a href="./Aboutme.html" style="cursor: pointer">About Me</a>
@@ -60,7 +58,7 @@
               <li><a href="./Certifications.html">Certifications</a></li>
               <li><a href="./Projects.html">Projects</a></li>
               <li>
-                <a href="./ContactMe.html">Contact Me</a>
+                <a href="./ContactMe.html" title="ContactMe">Contact Me</a>
               </li>
             </ul>
           </div>
@@ -70,8 +68,54 @@
           </div>
         </div>
       </header>
+      <div class="Main-content">
+        <div class="title-box">
+          <h1>Contact &nbsp;Me</h1>
+          <div class="Smalltitle-box">
+            <p>You can fill your details here so I will connect you on mail.</p>
+          </div>
+        </div>
+        
+        <div class="details-fill-form">
+          <form action="" method="post">
+            <label for="name"> <span>Name:</span> </label>
+            <input
+              type="text"
+              id="name"
+              required
+              placeholder="Enter your Name 😊"
+            />
+            <label for="email"> <span>Mail-Id:</span> </label>
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder="Enter your mail-id 📧"
+            />
+            <label for="Message"> <span>Message:</span> </label>
+            <input
+              type="text"
+              id="Message"
+              placeholder="Enter any message ✨"
+            />
+            <div class="but">
+            <button>Submit</button>
+            </div>
+            
+          </form>
 
-      
+        </div>
+        <div class="myLinks">
+          <h3>Connect Me on:</h3>
+          <a href="mailto:narayanamjnanacharan@gmail.com" target="_blank" rel="noopener"><img src="./img/ContactMe/mail.png" alt="mail"></a>
+          <a href="https://github.com/CharanChery" target="_blank" rel="noopener"><img src="./img/ContactMe/github.png" alt="github"></a>
+          <a href="https://www.linkedin.com/in/narayanam-jnana-charan/" target="_blank" rel="noopener"><img src="./img/ContactMe/LinkedIn-150x150.png" alt="linkedin"></a>
+          <a href="https://www.hackerrank.com/profile/jnanacharan" target="_blank" rel="noopener"><img src="./img/ContactMe/Hacker rank.png" alt="Hackerrank"></a>
+          <a href="https://leetcode.com/u/narayanamjnanacharan/" target="_blank" rel="noopener"><img src="./img/ContactMe/Leetcode.png" alt="leetcode"></a>
+        </div>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
