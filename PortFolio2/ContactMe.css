@@ -293,7 +293,11 @@ strong {
   color: #ff6a00;
 }
 .details-fill-form input:hover{
-  border: .1px solid grey;
+  border: 1.3px solid grey;
+}
+.details-fill-form input:focus{
+  border: 1px solid #153259;
+  outline: none;
 }
 .details-fill-form #Message{
   height: 80px;
@@ -366,10 +370,16 @@ img[alt="linkedin"]{
   height: 50px;
 }
 img[alt="Hackerrank"]{
-  width: 100px;
-  height: 60px;
+  width: 130px;
+  height: 50px;
 }
 img[alt="leetcode"]{
-  width: 100px;
-  height: 40px;
+  width: 120px;
+  height: 30px;
+}
+img[alt="mail"], img[alt="github"], img[alt="linkedin"], img[alt="Hackerrank"], img[alt="leetcode"]{
+  transition: transform .2s ease;
+}
+img[alt="mail"]:hover, img[alt="github"]:hover, img[alt="linkedin"]:hover, img[alt="Hackerrank"]:hover, img[alt="leetcode"]:hover{
+  transform: scale(1.1);
 }
