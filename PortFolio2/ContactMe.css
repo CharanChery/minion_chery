@@ -285,15 +285,20 @@ strong {
   width: 300px;
   height: 50px;
   border-radius: 10px;
-  border: 0.1px solid grey;
+  border: 0.1px solid #153259;
   padding: 19px;
   /* text-align: center; */
   font-family: Philosopher;
-
+  caret-color: #ff6a00;
+  color: #ff6a00;
+}
+.details-fill-form input:hover{
+  border: .1px solid grey;
 }
 .details-fill-form #Message{
   height: 80px;
 }
+
 .details-fill-form .but {
   display: flex;
   justify-content: space-around;
